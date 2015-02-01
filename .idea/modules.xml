@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/model-core/model-core.iml" filepath="$PROJECT_DIR$/model-core/model-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/novbank-patent.iml" filepath="$PROJECT_DIR$/novbank-patent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patent-analysis/patent-analysis.iml" filepath="$PROJECT_DIR$/patent-analysis/patent-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patent-model/patent-model.iml" filepath="$PROJECT_DIR$/patent-model/patent-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patent-parsers/patent-parsers.iml" filepath="$PROJECT_DIR$/patent-parsers/patent-parsers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patent-segmentation-spark/patent-segmentation-spark.iml" filepath="$PROJECT_DIR$/patent-segmentation-spark/patent-segmentation-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patent-store/patent-store.iml" filepath="$PROJECT_DIR$/patent-store/patent-store.iml" />
+    </modules>
+  </component>
+</project>
+
