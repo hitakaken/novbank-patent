@@ -51,8 +51,7 @@ public class OntModelGenerator {
         ExtendedIterator<OntClass> extiter= ontModel.listClasses();
         while(extiter.hasNext()){
             OntClass c=extiter.next();
-            System.out.println(c.getURI());
-            if(c.getURI()==null) System.out.println(c.getId());
+            if(c.getURI()==null) continue;
             System.out.println(c.getModel().getGraph().getPrefixMapping().shortForm(c.getURI()));
             if(!c.isAnon()){
                 // 迭代显示当前类的直接父类
